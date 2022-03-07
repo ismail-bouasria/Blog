@@ -44,10 +44,9 @@ class Article
      $updateArticle= $this->bdd->prepare(" UPDATE `articles` 
      SET `titre`=?,`image`=?,`description`=?,`article`=?,`id_categorie`=?,`date`= NOW() WHERE `id`=?");
      
-     $updateArticle->execute(array($this->titre,$this->image,$this->description,$this->article,$this->categorie,$id_edit));
+     $updateArticle->execute(array($this->titre,$this->image,$this->description,$this->article,$this->id_categorie,$id_edit));
      
-     $update= $updateArticle->fetchAll();
-     var_dump($update);
+     var_dump($updateArticle);
  
     }
 

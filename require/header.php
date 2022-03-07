@@ -143,6 +143,7 @@
                      echo '../upload/imgprofil.jpg';
                  }?> " alt="avatar profil"> </div>
                 <ul class="sous">
+                <li><a href="https://github.com/ismail-bouasria/blog">GitHub</a></li>
                 <?php if (isset($_SESSION['id'])){?>
                     <li><a href="profil.php">Profil </a></li>
                     <?php }else {?>
