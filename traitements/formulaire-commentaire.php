@@ -11,19 +11,17 @@ $id_utilisateur = intval($_SESSION['id']);
 
  
 if (isset($_POST['commenter'])) {
-    if (isset($id_utilisateur)) {
-        $commentaire=$_POST['commentaire'];
     
-        if (!empty($commentaire)) {
+    $commentaire=$_POST['commentaire'];
+    
+    if (!empty($commentaire)) {
         
-            $insertcommentaire->insertCommentaire($commentaire,$id_article,$id_utilisateur);
-            var_dump($insertcommentaire->insertCommentaire($commentaire,$id_article,$id_utilisateur));
-            header('Location:../php/article.php?article='.$id_article.'');
-        }
+        $insertcommentaire->insertCommentaire($commentaire,$id_article,$id_utilisateur);
 
-    }else {
-        header('Location:connexion.php');
+        header('Location:../php/article.php?article='.$id_article.'');
     }
+
+    
     
 
 }

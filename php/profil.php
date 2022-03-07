@@ -155,7 +155,25 @@ if (!isset($id)) {
                             </div>
                         </form>
                     </div>
+                    <p>GERER LES MEMBRES</p>
+                    <div class="boxdroits2">
+                        <form action="../traitements/formulaire-droits.php" method="POST">
+
+                            <select class="select-style" name="membre">
+                                <option value="">membres</option>
+                                <?php
+                                $user->getAllLogin();
+                                ?>
+
+                            </select>
+                           
+                            <div>
+                                <button  type="submit" name="supprimer">Supprimer le Membre</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
+
                <?php } ?>
             </div>
         </div>

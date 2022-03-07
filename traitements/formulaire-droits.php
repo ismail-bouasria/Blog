@@ -29,8 +29,17 @@ if (isset($_POST['changer'])) {
         header('Location: ../php/profil.php?errd=errordroit');
     }
     
+}
+
+
+
+if (isset($_POST['supprimer'])) {
+
+    $membre = $_POST['membre'];
+    $id_membre = intval($membre);
+    $user->deleteUser($id_membre);
+    header('Location: ../php/profil.php');
     
-       
     
 }
 ?>

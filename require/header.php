@@ -62,9 +62,10 @@
             </li>
             <li class="deroulant"><a href="#">actualités &ensp;</a>
                 <ul class="sous">
-                    <li><a href="#">news</a></li>
-                    <li><a href="#">devblog</a></li>
-                    <li><a href="#">mise à jours</a></li>
+                    <li><a href="articles.php">Tous les articles</a></li>
+                    <li><a href="articles.php?categorie=1">news</a></li>
+                    <li><a href="articles.php?categorie=2">devblog</a></li>
+                    <li><a href="articles.php?categorie=3">mise à jours</a></li>
                 </ul>
             </li>
 
@@ -156,12 +157,10 @@
                     <li><a href="creer-article.php">Créer un article</a></li>
                     <?php } } ?>
                     <?php if (isset($_SESSION['id'])){?>
-                    <li><a href="accueil.php?deconnexion=<?php echo $_SESSION['id']; ?>">Deconnexion</a></li>
+                        <li><a href="deconnexion.php">Deconnexion</a></li>
                     <?php } 
-                    if (isset($_GET['deconnexion'])) {
-                        session_destroy();
-                        header('location:accueil.php');
-                    }?>
+                  
+                    ?>
                     
                 </ul>
             </li>

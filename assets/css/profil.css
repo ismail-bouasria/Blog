@@ -287,6 +287,7 @@
     justify-content: center;
     align-content : center;
     position: relative;
+    width: 100%;
 }
 
 .boxdroits button {
@@ -301,6 +302,37 @@
     border-radius: 2px;
 }
 
+.boxdroits2{
+    display:flex;
+    justify-content: center;
+    align-content : center;
+    width: 100%;
+    position: relative;
+}
+
+.boxdroits2 div button {
+    cursor: pointer;
+    background-color:#9e1818; 
+    border: none;
+    color: white;
+    width: 108%;
+    margin: 13% 10% 0% 0% !important;
+    font-size: x-large;
+    padding: 4%;
+    border-radius: 2px;
+}
+
+ .boxdroits2 div button:hover {
+    cursor: pointer;
+    background-color:#9e1818; 
+    border: none;
+    color: white;
+    width: 108%;
+    margin: 13% 3% 0% 0%;
+    font-size: x-large;
+    padding: 4%;
+    border-radius: 2px;
+}
 .boxdroits button:hover{
     cursor: pointer;
     border: none;

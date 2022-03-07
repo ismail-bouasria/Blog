@@ -107,6 +107,15 @@ class User
             
     } 
 
+    // Méthode pour supprimer un utilisateurun avatar 
+    public function deleteUser($id)
+    {
+        $sql= "DELETE FROM `utilisateurs` WHERE `id`=?";
+        $deleteUser = $this->bdd->prepare($sql);
+        $deleteUser->execute([$id]);
+        $deleteUser= $deleteUser->fetch();
+            
+    } 
 
     // Méthode pour récuperer le login et l'id des utilisateurs
     public function getAllLogin()

@@ -52,9 +52,12 @@ if ($_SESSION['droit'] == 'utilisateur') {
                                     ?>
                                
                                 <form action="../traitements/formulaire-article.php" method="post" enctype="multipart/form-data">
-                                    <section class="cardarticle">
-                                        <p>Remplissez tout les champs pour enregister votre article !</p>
-                                    </section>
+                                    <?php if (isset($_GET['succ'])) {?>
+                                        <section class="cardarticle">
+                                        <p>votre article a été posté !</p>
+                                        </section>
+                                    }
+                                   
                                     <div class="cardarticle">
                                     <label>Choisir une catégorie:</label>
 

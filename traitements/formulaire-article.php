@@ -44,12 +44,11 @@ if (isset($_POST['poster'])) {
             $id_utilisateur = $_SESSION['id'];
             $image= $path;
             
-
-
             $article = new Article ($titre,$image,$description,$article,$id_utilisateur,$id_categorie);
             $article->insertArticle();
  
-            header('Location: ../php/creer-article.php?succ=articleposter');
+            header('Location: ../php/accueil.php');
+            
                         
                     
         }  else{
@@ -103,13 +102,6 @@ if (isset($_POST["editer"])) {
         $id_utilisateur = $_SESSION['id'];
         $id_edit = $_SESSION['editer'];
         
-        echo 'ok';
-        var_dump($titre);
-        var_dump($id_categorie);
-        var_dump($description);
-        var_dump($article);
-        var_dump($image);
-        var_dump($id_edit);
         
         $article = new Article ($titre,$image,$description,$article,$id_utilisateur,$id_categorie);
         $article->updateArticle($id_edit);

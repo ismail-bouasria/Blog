@@ -83,7 +83,7 @@ $commentaire = new Commentaire('', '', '');
                         // On détermine le nombre de commentaires par page
                         $parCom = 5;
                         // On calcule le nombre de page total
-                        $pages = ceil($commentaire->nb_Commentaire($_SESSION['article']) / $parCom);
+                        $pages = $commentaire->nb_Commentaire($_SESSION['article']) / $parCom;
                         // Calcul du commentaire de la page
                         $premier = ($pageActuelle * $parCom) - $parCom;
 
@@ -119,7 +119,7 @@ $commentaire = new Commentaire('', '', '');
                     </div>
                     <!-----------------------------------------BOX PAGINATION-------------------------------------------->
                     <div class="boxpajicommentaire">
-
+                    <?php var_dump($pageActuelle); ?>
                         <nav>
                             <ul class="pagination">
                                 <!-- Lien vers la page précédente (désactivé si on se trouve sur la 1ère page) -->
@@ -133,8 +133,8 @@ $commentaire = new Commentaire('', '', '');
                                     </li>
                                 <?php endfor ?>
                                 <!-- Lien vers la page suivante (désactivé si on se trouve sur la dernière page) -->
-                                <li class="page-item <?= ($pageActuelle  == $pages) ? "disabled" : "" ?>">
-                                    <a href="article.php?article=<?= $_SESSION['article'] ?>&page=<?= $pageActuelle + 1 ?>" class="page-link">Suivante</a>
+                                <li class="page-item <?php if($pageActuelle  == $pages) { echo"disabled";}?>" ?>
+                                    <a disabled href="article.php?article=<?= $_SESSION['article'] ?>&page=<?= $pageActuelle + 1 ?>" class="page-link">Suivante</a>
                                 </li>
                             </ul>
                         </nav>

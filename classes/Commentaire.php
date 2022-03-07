@@ -53,13 +53,11 @@
      $selectCommentaire->bindValue(':parcom', (int) $parcom, PDO::PARAM_INT); 
      $selectCommentaire->execute();
      $selectCom = $selectCommentaire->fetchAll(PDO::FETCH_ASSOC);
-
      return $selectCom;
     }
 
 
 }
 
-// $commentaire= new Commentaire('','','');
-// $commentaire->selectCommentaire(9,0,5);
+
  ?>

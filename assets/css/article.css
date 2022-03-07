@@ -264,6 +264,9 @@ textarea[name=article]
 .page-item{
     width:100%;
 }
+.disabled {
+    pointer-events:none;
+}
 .cardarticlemain2 {
     margin-top: 1.5%;
     background-color: #F3F2ED;
