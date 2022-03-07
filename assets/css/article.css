@@ -1,0 +1,477 @@
+/* ----------------------------------------------------------GENERAL-------------------------------------------------------------------- */
+.bodyarticle{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/fondarticle.jpg) ;
+    background-attachment: none !important;
+    
+    
+}
+.mainarticle{
+    height: 100%;
+    margin-top: 4%;
+     display: flex !important;
+     justify-content: center !important;
+     width: 100%;
+    
+
+
+}
+
+/* --------------------------------------------------------FORMULAIRE ARTICLE---------------------------------------------------------- */
+
+.conteneurarticle{
+    width: 75%;
+   height: 100%;
+    background-color: rgba(245, 245, 245, 0.479);
+    display: flex !important;
+    justify-content: center !important;
+    padding-top: 0.9%;
+}
+.conteneurformarticle{
+    height: 100%;
+    width: 100%;
+}
+.formarticle{
+ height: 100%;
+ background-color: #FCF4DD ;
+ width: 98%;
+ display: flex;
+ flex-direction: column;
+}
+
+.boxcreerarticle{
+    background-color: #C5D432;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 200%;
+    padding: 1.5%;
+}
+
+.boxformarticle{
+    background-color: #F8F8F6;
+    width: 100%;
+    margin-top: 1%;
+    height: 100%;
+    padding-bottom: 2%;
+}
+.cardform{
+    flex-direction: column;
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+    height: 100%;
+    
+}
+.cardarticle{
+    margin: 2% 0% 0% 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea[name=description]
+{
+ resize : none;
+}
+textarea[name=article]
+{
+ resize : none;
+}
+
+.cardarticle  label{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: smaller;
+    font-weight: bold;
+    color: #735C3E;
+    margin-bottom: 0.5%;
+}
+
+.cardarticle  input[type=text]{
+   
+    padding: 1%;
+    color: gray;
+    border: 1px solid #735C3E;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif !important;
+    border-radius: 3px;
+}
+.cardarticle textarea{
+    padding: 1%;
+    color: gray;
+    border-radius: 3px;
+    border: 1px solid #735C3E;;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif !important;
+}
+   
+   
+.cardarticle input[type=submit]{
+    cursor: pointer;
+    background-color:#F45C20; 
+    border: none;
+    color: white;
+    width: 20%;
+    font-size: x-large;
+    border-radius: 2px;
+    padding: 1%;
+    margin: 0% 5% 0% 40%;
+
+    
+}
+   
+.cardarticle input[type=submit]:hover{
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    width:20%;
+    padding: 1%;
+    margin: 0% 0% 0% 40%;
+    font-size: x-large;
+    filter:brightness(1.2)
+}
+
+.select-style {
+    cursor: pointer;
+    background-color:#F45C20; 
+    border: none;
+    color: white;
+    width: 30%;
+    text-align: center;
+    font-size: medium;
+    border-radius: 2px;
+
+}
+.cardarticle input[type=file]{
+    cursor: pointer;
+    background-color:#F45C20; 
+    border: none;
+    color: white;
+    width: 30%;
+    text-align: center;
+    font-size: medium;
+    border-radius: 2px;
+}
+/* --------------------------------------------------------------CSS_ARTICLES------------------------------------------------------------------ */
+
+.boxlarticle{
+    background-color: #97A800;
+    color: #FFFFFF;
+    font-size: 200%;
+    padding-top: 1.5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.readtitre{
+    height: 50px;
+    text-align: center;
+    width: 100%;
+}
+.readcategorie{
+   
+    font-family: 'Roboto', sans-serif !important;
+    width: 5%;
+    text-align: center;
+
+}
+.readcategorie p{
+    
+    font-family: 'Roboto', sans-serif !important;
+    font-size: medium;
+
+}
+
+.readdate{
+    height: 20px;
+    width: 15%;
+}
+.readdate p{
+    
+    font-family: 'Roboto', sans-serif !important;
+    font-size: medium;
+    color: #272726;
+
+}
+
+.boxformlarticle{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.readdescription{
+    height: 60px;
+    width: 90%;
+    margin-top: 2%;
+    color: #272726;
+    font-family: 'Roboto', sans-serif !important;
+}
+.readdescription p{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: medium;
+    color: #272726;
+
+}
+
+.readimage{
+    height: max-content;
+    width: 60%;
+    margin-top: 2%;
+}
+
+
+.readarticle{
+ height: max-content;
+    width: 90%;
+    margin-top: 2%;
+    color: #272726;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.readarticle p{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: medium;
+    color: #272726;
+
+}
+
+/* --------------------------------------------------------------CSS_LESARTICLES------------------------------------------------------------------ */
+.conteneurmain2 {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(245, 245, 245, 0.829);
+}
+.cardmain2 {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+   
+}
+
+.page-item{
+    width:100%;
+}
+.cardarticlemain2 {
+    margin-top: 1.5%;
+    background-color: #F3F2ED;
+    height: 35%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+.boxcommentaire{
+    border-top: #D2CFC5 solid 6px;
+    width: 100%;
+}
+
+.titrecommentaire{
+    background-color: #FFFFFF;
+    color: #272726;
+    font-size: 200%;
+    border-bottom: rgba(128, 128, 128, 0.295) solid 1px;
+}
+
+.titrecommentaire p{
+    
+    margin-left: 5%;
+}
+
+.conteneurcom{
+    background-color: whitesmoke;
+    border-bottom: rgba(128, 128, 128, 0.295) solid 1px;
+    display: flex;
+}
+
+.cardimagecom{
+    width: 25%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagecom{
+    width:30%;
+    margin: 3% 0% 3% 0%;
+    
+}
+.cardimagecom img {
+    border: #272726 1px solid;
+}
+.cardimagecom{
+    width: 20%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardcom{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+}
+
+
+.pseudocom{
+    width: 6%;
+   
+}
+.pseudocom p{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif !important;
+    color: #97A800;
+    margin: 6% 0%;
+}
+
+.datecom{
+    width: 15%;
+   
+}
+.datecom p{
+    color: rgb(94, 93, 93);
+    font-family: 'Roboto', sans-serif !important;
+    font-size: x-small;
+    margin: 8% 0 0 2%;
+}
+.commentaire{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 1%;
+}
+
+.commentaire p{
+    color: black;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: small;
+    width: 95%;
+    height: fit-content;
+}
+
+/* -------------------------------------------PAGINATION------------------------------------------- */
+
+.boxpajicommentaire{
+    background-color: #FFFFFF;
+    border-bottom: #5c360591 1px solid;
+}
+
+.boxpajicommentaire nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+   
+}
+
+.boxpajicommentaire nav a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #735C3E;
+    background-color:  #E4E0D7;
+    border: #735c3e9c 1px solid;
+    margin: 5% 0% 5% 0%;
+}
+
+.boxpajicommentaire nav a:hover {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #735C3E;
+    background-color: #C5D432;
+}
+
+
+.pagination {
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+ul.pagination{
+    border-radius:none !important;
+    margin: 0% !important;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* -----------------------------------------FORMULAIRE COMMENTAIRE-------------------------------------------- */
+
+.conteneurformcom{
+    background-color: #FAFAFA;
+    width: 100%;
+    display: flex;
+}
+
+.conteneurformcom .cardimagecom  section  img{
+    margin-top: 30% ;
+    width: 120%;
+    border: none;
+    border: #272726 1px solid;
+}
+
+.conteneurformcom input[type=submit]{
+    cursor: pointer;
+    background-color: #97A800; 
+    border: none;
+    color: white;
+    width: 20%;
+    font-size: x-large;
+    border-radius: 2px;
+    padding: 1%;
+    margin: 2% 5% 2% 30%;
+
+    
+}
+   
+.conteneurformcom input[type=submit]:hover{
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    width:20%;
+    padding: 1%;
+    margin: 2% 0% 2% 30%;
+    font-size: x-large;
+    filter:brightness(1.2)
+}
+
+.conteneurformcom textarea {
+    padding: 1%;
+    color: gray;
+    border-radius: 3px;
+    border: 1px solid #735C3E;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif !important;
+    width: 90%;
+}
+
+textarea[name=commentaire]
+{
+ resize : none;
+}

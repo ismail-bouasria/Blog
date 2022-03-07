@@ -1,0 +1,204 @@
+/* -----------------------------------GENERAL-------------------------------------------- */
+.bodyconnexion{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/fondconnexion.png);
+    background-attachment: none !important;
+    
+}
+
+/* -------------------------------FORMULAIRE DE CONNEXION-------------------------------- */
+.blockfbco{
+    background-color:#4E76CA;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5% 0% 0% 0%;
+}
+.blockfbco a{
+    width: 100%;
+    display: flex; 
+    align-items: center;
+}
+.blockfbco:hover{
+    background-color:#4267B4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mainconnexion{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0% !important;
+}
+
+
+.cardtelechargement{
+    margin: 0% 0.4% 0.5% 0%;
+}
+.conteneurconnexion{
+    background-color: rgba(245, 245, 245, 0.322);
+    width: 60%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formconteneurconnexion{
+    background-color: #FAFAFA;
+    width: 97%;
+    height: 97%;
+   display: flex;
+   flex-direction: column;
+    
+}
+.divformflex{
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    height:100%;
+}
+
+.boxcomptankama{
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.cardform1{
+    height: 86%;
+    width: 34%;
+    border-right: 1px solid rgba(128, 128, 128, 0.568);
+    margin: 2% 0% 2% 0%;
+    font-family: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fontcustomform{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: smaller;
+    font-weight: bold;
+    color: #5B360E;
+   
+}
+.fontcustomform2{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: medium;
+    font-weight: bold;
+    color: #373737;
+   
+}
+.blockfb{
+background-color:#4E76CA;
+width: 80%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+margin: 5% 0% 0% 0%;
+}
+.blockfb a{
+    width: 100%;
+    display: flex; 
+    align-items: center;
+}
+.blockfb:hover{
+    background-color:#4267B4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fontcustomfb{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 140%;
+    margin-right: 20%;
+    
+}
+.cardform2{
+    width: 64%;
+    height: 100%;
+    text-align:start;
+    display: flex;
+    margin-left: 5%;
+}
+
+.formconnexion{
+    margin : 2% 0% 0% 0%;
+}
+.formconnexion  div{
+    padding: 1%;
+    width: 100%;
+}
+.formconnexion div label{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: smaller;
+    font-weight: bold;
+    color: #373737;
+}
+
+
+.formconnexion div input[type=email]{
+    width: 250%;
+    padding: 10%;
+    color: gray;
+    border: 1px solid #373737a8;
+    background-color: #F4F4F4;
+    font-family: 'Roboto', sans-serif !important;
+}
+   
+.formconnexion div input[type=password]{
+    width: 250%;
+    padding: 10%;
+    color: gray;
+    border: 1px solid #373737a8;
+    background-color: #F4F4F4;
+    font-family: 'Roboto', sans-serif !important;
+}
+.messagereussi{
+    width:  100%;
+    color: rgb(16, 182, 16);
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.messageerreur{
+    width:  100%;
+    color: rgb(182, 16, 16);
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.formconnexion div input[type=submit]{
+    cursor: pointer;
+    background-color:#F45C20; 
+    border: none;
+    color: white;
+    width: 218%;
+    margin: 13% 0% 0% 0%;
+    font-size: x-large;
+    padding: 5%;
+    border-radius: 2px;
+
+    
+}
+   
+.formconnexion div input[type=submit]:hover{
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    width: 218%;
+    padding: 5%;
+    margin: 13% 0% 0% 0%;
+    font-size: x-large;
+    filter:brightness(1.2)
+}

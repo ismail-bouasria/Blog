@@ -1,0 +1,327 @@
+/* ----------------------------------------------------GENERAL------------------------------------------------------------------------- */
+.bodyprofil{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/fondprofil.jpg);
+    background-size: cover;
+    
+}
+.mainprofil{
+ margin-top: -1% !important;
+}
+/* ----------------------------------------------------MAIN------------------------------------------------------------------------------- */
+
+.boxtop{
+    display: flex;
+    width: 30%;
+    margin: 3% 50% 1.5% 0%;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.boxdarkprof{
+    background-color: rgba(0, 0, 0, 0.514);
+    color: whitesmoke;
+    margin-left: 5%;
+    padding: 5%;
+    font-size:xx-large;
+}
+
+.boxprofil { 
+    width: 100%;
+    height: 100%;
+    background-color: #F1F1F1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxprofiltop {
+  background-color: black;
+  border-bottom: 4px solid #F45C20;
+  width: 100%;
+  height: 7.5vh;
+}
+
+.conteneurprofil{
+    margin: 1.5%;
+    background-color: white;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    
+}
+
+.cardprofil{
+    border-top: 2px solid #F45C20;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.cardprofil2{
+    width: 30%;
+}
+
+.cardprofil p {
+ font-family: 'Roboto', sans-serif !important;
+ font-size: xx-large ;
+ color:#F45C20 ;
+ margin: 0% 0% 0% 2%;
+}
+
+.cardprofil2 p {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: xx-large ;
+    color:#F45C20 ;
+    margin: 1% 0% 0% 0%;
+    text-align: center;
+}
+
+/* -----------------------------------------------------------AVATAR PROFIL------------------------------------------------------------ */
+.boxavatarinfo{
+    display: flex;
+   width: 100%;
+   height: 100%;
+}
+.boxavatarinfo div {
+ height: 100%
+}
+
+
+.cardavatar {
+    max-width: 78,5%;
+    max-height: 28vh;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0% 4% 0% 4%;
+    border: 3px solid #F45C20;
+
+}
+
+.cardavatar input[type=file]{
+    opacity: 0%;
+    border: none;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.cardavatar input[type=submit]{
+    width: 100%;
+    cursor: pointer;
+    background-color:#F45C20; 
+    border: none;
+    color: white;
+    margin: 13% 0% 0% 0%;
+    font-size: large;
+    padding: 1%;
+}
+.cardavatar input[type=submit]:hover{
+    cursor: pointer;
+    background-color:#F45C20; 
+    width: 100%;
+    border: none;
+    color: white;
+    margin: 13% 0% 0% 0%;
+    font-size: large;
+    padding: 1%;
+    filter: brightness(1.2);
+}
+.boxerreurprofil{
+    width:  40%;
+    height: 5%;
+    margin: -2% 0% 0% 0%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxerreurprofil p{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: small;
+    font-weight: bold;
+    color: #E4442C;
+}
+.boxreussiprofil p{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: small;
+    font-weight: bold;
+    color: #13be5a;
+}
+.boxreussiprofil{
+    width:  40%;
+    height: 5%;
+    margin: -2% 0% 0% 0%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxreussidroit{
+    width: 40%;
+    height: 5%;
+    margin: 15% 0% 0% 80%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxreussidroit p{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: small;
+    font-weight: bold;
+    color: #13be5a;
+}
+
+.boxerreurdroit{
+    width: 30%;
+    height: 5%;
+    margin: 15% 0% 0% 80%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxerreurdroit p{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: small;
+    font-weight: bold;
+    color: #E4442C;
+}
+
+/* -------------------------------------------------------FORMULAIRE PROFIL------------------------------------------------------------ */
+.cardinfos{
+    width: 69%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid rgba(128, 128, 128, 0.384);
+}
+
+.cardform2{
+    width: 64%;
+    height: 100%;
+    text-align:start;
+    display: flex;
+    margin-left: 5%;
+   
+}
+
+.formprofil{
+    margin : 2% 0% 0% 0%;
+    align-items: center;
+}
+.formprofil  div{
+    padding: 1%;
+    width: 100%;
+}
+.formprofil div label{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: smaller;
+    font-weight: bold;
+    color:  #F45C20;
+}
+
+.formprofil div input[type=text]{
+    width: 200%;
+    padding: 8%;
+    color: gray;
+    border: 1px solid #F45C20;
+    background-color:  whitesmoke;
+    font-family: 'Roboto', sans-serif !important;
+}
+.formprofil div input[type=email]{
+    width: 200%;
+    padding: 8%;
+    color: gray;
+    border: 1px solid #F45C20;
+    background-color:  whitesmoke;
+    font-family: 'Roboto', sans-serif !important;
+}
+   
+.formprofil div input[type=password]{
+    width: 200%;
+    padding: 8%;
+    color: gray;
+    border: 1px solid #F45C20;
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif !important;
+}
+   
+.formprofil div input[type=submit]{
+    cursor: pointer;
+    background-color:#F45C20; 
+    border: none;
+    color: white;
+    width: 218%;
+    margin: 13% 0% 0% 0%;
+    font-size: x-large;
+    padding: 5%;
+    border-radius: 2px;
+
+}
+   
+.formprofil div input[type=submit]:hover{
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    width: 218%;
+    padding: 5%;
+    margin: 13% 0% 0% 0%;
+    font-size: x-large;
+    filter:brightness(1.2)
+}
+
+/* -------------------------------------------------------FORMULAIRE DROITS------------------------------------------------------------- */
+
+.boxdroits{
+    display:flex;
+    justify-content: center;
+    align-content : center;
+    position: relative;
+}
+
+.boxdroits button {
+    cursor: pointer;
+    background-color:#F45C20; 
+    border: none;
+    color: white;
+    width: 100%;
+    margin: 13% 0% 0% 0%;
+    font-size: x-large;
+    padding: 5%;
+    border-radius: 2px;
+}
+
+.boxdroits button:hover{
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    width: 100%;
+    padding: 5%;
+    margin: 13% 0% 0% 0%;
+    font-size: x-large;
+    filter:brightness(1.2)
+}
+
+.select-style  {
+    cursor: pointer;
+    background-color:#36bb63; 
+    border: none;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+    margin: 10% 0% 10% 0%;
+    border-radius: 2px;
+
+}

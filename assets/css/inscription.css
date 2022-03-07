@@ -1,0 +1,185 @@
+/* -----------------------------------GENERAL-------------------------------------------- */
+
+.bodyinscription{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/fond.jfif);
+    background-size: cover !important;
+    background-attachment: unset !important;
+}
+
+/* ------------------------------BOX FORMULAIRE INSCRIPTION-------------------------------- */
+.maininscription{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 8% 0% 0% 0% !important;
+}
+
+
+.conteneurbouton{
+    margin-top: 12%;
+    width: 90%;
+    display: flex;
+    justify-content: end;
+}
+
+.cardtelechargement{
+    margin: 0% 0.4% 0.5% 0%;
+}
+.conteneurinscription{
+    background-color: rgba(245, 245, 245, 0.322);
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formconteneur{
+    background-color: #FAFAFA;
+    width: 97%;
+    height: 97%;
+   display: flex;
+   flex-direction: column;
+   
+}
+.divformflex{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    margin-top: 5%;
+}
+
+.blockcreervotrecompte{
+    background-color: #C5D432;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 200%;
+    padding: 1.5%;
+}
+
+.cardform1{
+height: 86%;
+width: 34%;
+border-right: 1px solid rgba(128, 128, 128, 0.568);
+margin: 2% 0% 2% 0%;
+font-family: none;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.fontcustomform{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: smaller;
+    font-weight: bold;
+    color: #5B360E;
+   
+}
+.blockfb{
+background-color:#4E76CA;
+width: 80%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+margin: 5% 0% 0% 0%;
+}
+
+
+.blockfb a{
+    width: 100%;
+    display: flex; 
+    align-items: center;
+}
+.blockfb:hover{
+    background-color:#4267B4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fontcustomfb{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 140%;
+    margin-right: 20%;
+    
+}
+.cardform2{
+    width: 64%;
+    height: 100%;
+    text-align:start;
+    display: flex;
+    margin-left: 5%;
+}
+/* -------------------------FORMULAIRE D'INSCRIPTION------------------------------------- */
+
+.forminscription{
+    margin-top: 2%;
+}
+.forminscription div{
+    padding: 1%;
+    width: 100%;
+}
+.forminscription div label{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: smaller;
+    font-weight: bold;
+    color: #5B360E;
+}
+
+.forminscription div input[type=text]{
+    width: 180%;
+    padding: 5%;
+    color: gray;
+    border: 1px solid #5B360E;
+    background-color: white;
+    font-family: 'Roboto', sans-serif !important;
+}
+.forminscription div input[type=email]{
+    width: 180%;
+    padding: 5%;
+    color: gray;
+    border: 1px solid #5B360E;
+    background-color: white;
+    font-family: 'Roboto', sans-serif !important;
+}
+   
+.forminscription div input[type=password]{
+    width: 180%;
+    padding: 5%;
+    color: gray;
+    border: 1px solid #5B360E;
+    background-color: white;
+    font-family: 'Roboto', sans-serif !important;
+}
+   
+.forminscription div input[type=submit]{
+    cursor: pointer;
+    box-shadow: 0 2px 2px 0 #000;
+    background-color: #97A800; 
+    border: none;
+    border-radius: 2px;
+    color: white;
+    width: 100%;
+    height: 50px;
+    margin: 30% 0% 0% 40%;
+    font-size: x-large;
+    
+}
+   
+.forminscription div input[type=submit]:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 2px 0 #000;
+    background-color: #97A800; 
+    border: none;
+    border-radius: 2px;
+    color: white;
+    width: 100%;
+    height: 50px;
+    margin: 30% 0% 0% 40%;
+    font-size: x-large;
+    filter:brightness(1.2)
+}
